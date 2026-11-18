@@ -1,51 +1,76 @@
-# 📄 Assignment Title
-
-> Replace this file's contents for each assignment. Delete any sections you don't need.
+# 🎬 Ghibli Film Guide: CSS Grid Layout
 
 ## 🎯 Overview
 
-<!-- One short paragraph: what students are building and why. -->
+The Ghibli Film Guide is a two-page fan site about the films of Studio Ghibli. The HTML, colors, fonts, and spacing are
+already done, but every section stacks in a single column. Your job is to lay out both pages with CSS Grid so they
+adapt to any screen size on their own, without a single media query.
+
+Follow along with the companion video to complete the exercise.
 
 ## 📋 Requirements
 
-<!-- The specific, checkable things the work must do. -->
-
-- [ ] Requirement one
-- [ ] Requirement two
-- [ ] Requirement three
+- [ ] All of your CSS is in `css/grid.css`. `index.html`, `spirited-away.html`, and `css/base.css` are unchanged.
+- [ ] No media queries. Every layout adapts to the screen size with Grid alone.
+- [ ] The main headings on both pages scale smoothly with the width of the screen.
+- [ ] **Homepage:** the featured film's image, description, and credits sit side by side when there's room, and stack
+  when there isn't.
+- [ ] **Homepage:** the film cards fill each row, and every card stays the same width, even on the last row.
+- [ ] **Film page:** the film's title sits on top of the hero image, along its bottom edge.
+- [ ] **Film page:** the four quick facts line up in a row when there's room.
+- [ ] **Film page:** the synopsis and credits sit side by side when there's room. In the credits, each label sits to
+  the left of its value, and the labels take only the space they need.
+- [ ] **Film page:** the stills gallery has rows of equal height, and the wide stills span two columns.
+- [ ] Both pages work at every width from a phone to a wide desktop, with no horizontal scrolling.
 
 ## 🖼️ Example Output
 
-<!-- Add a screenshot or mockup of the finished result, then describe anything the -->
-<!-- image doesn't make obvious (hover states, responsive behavior, interactions).  -->
+Your finished pages should look like this on a desktop:
 
-![Example output](../images/example.png)
+| Homepage                                                                                                           | Film page                                                                                                           |
+|--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| <img src="images/preview-home-desktop.jpg" alt="The finished homepage on a desktop screen" width="400"> | <img src="images/preview-film-desktop.jpg" alt="The finished Spirited Away page on a desktop screen" width="400"> |
+
+And like this on a phone:
+
+| Homepage                                                                                                      | Film page                                                                                                      |
+|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| <img src="images/preview-home-mobile.jpg" alt="The finished homepage on a phone screen" width="200"> | <img src="images/preview-film-mobile.jpg" alt="The finished Spirited Away page on a phone screen" width="200"> |
+
+Resize your browser window slowly from wide to narrow. Columns should drop one at a time as the space runs out, with
+no sudden jumps.
 
 ## 📂 Starter Files
 
-<!-- What's already in the repo and what students are expected to create. -->
-
-| File / Folder | Purpose |
-| --- | --- |
-| `index.html` | Main page |
-| `css/` | Stylesheets |
-| `images/` | Image assets |
+| File / Folder        | Purpose                                                          |
+|----------------------|------------------------------------------------------------------|
+| `index.html`         | Homepage: intro, featured film, and the film wall                |
+| `spirited-away.html` | Film page: hero, quick facts, about, and stills gallery          |
+| `css/base.css`       | Colors, fonts, and spacing for both pages. Don't edit this file. |
+| `css/grid.css`       | **Your layout goes here.** Create it if it isn't there.          |
+| `images/films/`      | One image for each film on the homepage                          |
+| `images/stills/`     | Hero image and gallery stills for the film page                  |
 
 ## 🧮 Grading
 
-| Criteria | Points |
-| --- | --- |
-|  |  |
-|  |  |
-|  |  |
-| **Total** |  |
+<!-- Add point values and the due date. -->
+
+| Criteria                                                      | Points |
+|---------------------------------------------------------------|--------|
+| Homepage layout: featured film and film wall                  |        |
+| Film page layout: hero, quick facts, about, and stills        |        |
+| Responsive at every width with no media queries               |        |
+| Fluid headings                                                |        |
+| Code quality: only `css/grid.css` changed, clean and readable |        |
+| **Total**                                                     |        |
 
 ## 📚 Resources
 
-<!-- Links to readings, slides, documentation, or examples. -->
-
--
--
+- [CSS grid layout (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
+- [`repeat()` (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat)
+- [`minmax()` (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax)
+- [`clamp()` (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp)
+- [A Complete Guide to CSS Grid (CSS-Tricks)](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ## 🆘 Getting Help
 

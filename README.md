@@ -1,7 +1,7 @@
-# 💻 Assignment Boilerplate
+# 🎬 Ghibli Film Guide: CSS Grid Layout
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration,
-and a pull request template so every assignment works the same way.
+A two-page fan site about the films of Studio Ghibli. The HTML and base styles are done for you. You'll lay out both
+pages with CSS Grid so they adapt to any screen size without media queries.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`
@@ -22,17 +22,27 @@ Every assignment follows the same steps. Each guide has screenshots for every st
 |------|----------------------------------------------------------------------------|-----------------------------------------------|
 | 0    | **First assignment only:** install and set up WebStorm                     | [WebStorm Setup](.github/WEBSTORM_SETUP.md)   |
 | 1    | Create your repo from this template, clone it, and make a `develop` branch | [Getting Started](.github/GETTING_STARTED.md) |
-| 2    | Build your page in the root folder                                         | [Where Your Files Go](#-where-your-files-go)  |
+| 2    | Write your layout in `css/grid.css`                                        | [Where Your Files Go](#-where-your-files-go)  |
 | 3    | Commit and push often, then turn on GitHub Pages                           | [Publishing](.github/PUBLISHING.md)           |
 | 4    | Open a pull request into `main` and submit its URL in Canvas               | [Submitting](.github/SUBMITTING.md)           |
 
 ## 📂 Where Your Files Go
 
-Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into
-subfolders:
+The starter files are already in the **root folder** of this repo, the same folder as this README. GitHub Pages
+publishes from the root, so leave `index.html` where it is or your site will 404.
 
-<img src=".github/images/webstorm-project-files.png" alt="The WebStorm Project panel showing index.html in the root folder, with css/style.css, images/photo.jpg, and js/script.js in their own subfolders, all highlighted" width="350">
+```text
+├── index.html          Homepage
+├── spirited-away.html  Film page
+├── css/
+│   ├── base.css        Colors, fonts, and spacing. Don't edit this file.
+│   └── grid.css        Your layout goes here
+└── images/
+    ├── films/          Homepage film images
+    └── stills/         Film page hero and gallery stills
+```
+
+All of your work goes in `css/grid.css`. Don't change the HTML files or `css/base.css`.
 
 ## 🤖 AI Policy
 
