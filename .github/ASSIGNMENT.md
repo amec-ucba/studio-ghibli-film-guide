@@ -55,16 +55,14 @@ no sudden jumps.
 
 ## 🧮 Grading
 
-<!-- Add point values and the due date. -->
-
 | Criteria                                                          | Points |
 |-------------------------------------------------------------------|--------|
-| Homepage layout: featured film and film wall                      |        |
-| Film page layout: hero, quick facts, about, and stills            |        |
-| Responsive at every width with no media queries                   |        |
-| Fluid headings                                                    |        |
-| Code quality: `grid.css` linked on both pages, clean and readable |        |
-| **Total**                                                         |        |
+| Homepage layout: featured film and film wall                      | 4      |
+| Film page layout: hero, quick facts, about, and stills            | 5      |
+| Responsive at every width with no media queries                   | 3      |
+| Fluid headings                                                    | 1      |
+| Code quality: `grid.css` linked on both pages, clean and readable | 2      |
+| **Total**                                                         | **15** |
 
 ## 📚 Resources
 
@@ -76,7 +74,7 @@ no sudden jumps.
 
 ## 🆘 Getting Help
 
-<!-- Office hours, discussion board, tutoring center, etc. -->
+Ask during class or office hours, or post on the Canvas discussion board.
 
 ---
 
