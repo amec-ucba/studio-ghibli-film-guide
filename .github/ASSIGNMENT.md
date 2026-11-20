@@ -10,7 +10,9 @@ Follow along with the companion video to complete the exercise.
 
 ## 📋 Requirements
 
-- [ ] All of your CSS is in `css/grid.css`. `index.html`, `spirited-away.html`, and `css/base.css` are unchanged.
+- [ ] Create `css/grid.css` and link it on both pages, right after `css/base.css`. That `link` is the only change to
+  `index.html` and `spirited-away.html`.
+- [ ] All of your CSS is in `css/grid.css`. `css/base.css` is unchanged.
 - [ ] No media queries. Every layout adapts to the screen size with Grid alone.
 - [ ] The main headings on both pages scale smoothly with the width of the screen.
 - [ ] **Homepage:** the featured film's image, description, and credits sit side by side when there's room, and stack
@@ -47,7 +49,7 @@ no sudden jumps.
 | `index.html`         | Homepage: intro, featured film, and the film wall                |
 | `spirited-away.html` | Film page: hero, quick facts, about, and stills gallery          |
 | `css/base.css`       | Colors, fonts, and spacing for both pages. Don't edit this file. |
-| `css/grid.css`       | **Your layout goes here.** Create it if it isn't there.          |
+| `css/grid.css`       | **Your layout goes here.** Create it and link it on both pages.  |
 | `images/films/`      | One image for each film on the homepage                          |
 | `images/stills/`     | Hero image and gallery stills for the film page                  |
 
@@ -55,14 +57,14 @@ no sudden jumps.
 
 <!-- Add point values and the due date. -->
 
-| Criteria                                                      | Points |
-|---------------------------------------------------------------|--------|
-| Homepage layout: featured film and film wall                  |        |
-| Film page layout: hero, quick facts, about, and stills        |        |
-| Responsive at every width with no media queries               |        |
-| Fluid headings                                                |        |
-| Code quality: only `css/grid.css` changed, clean and readable |        |
-| **Total**                                                     |        |
+| Criteria                                                          | Points |
+|-------------------------------------------------------------------|--------|
+| Homepage layout: featured film and film wall                      |        |
+| Film page layout: hero, quick facts, about, and stills            |        |
+| Responsive at every width with no media queries                   |        |
+| Fluid headings                                                    |        |
+| Code quality: `grid.css` linked on both pages, clean and readable |        |
+| **Total**                                                         |        |
 
 ## 📚 Resources
 

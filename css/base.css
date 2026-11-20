@@ -108,21 +108,6 @@ section > p {
   margin: 0.75rem auto 0;
 }
 
-/* File Page (Hero)
------------------------------------------------------------------------------ */
-
-.film-hero {
-  display: grid;
-}
-
-.film-hero > * {
-  grid-area: 1 / 1;
-}
-
-section > img + div {
-  align-self: end;
-}
-
 /* Featured Films
 ----------------------------------------------------------------------------- */
 
