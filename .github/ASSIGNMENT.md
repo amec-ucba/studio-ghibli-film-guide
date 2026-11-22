@@ -56,11 +56,11 @@ no sudden jumps.
 
 | Criteria                                                          | Points |
 |-------------------------------------------------------------------|--------|
-| Homepage layout: featured film and film wall                      | 4      |
-| Film page layout: hero, quick facts, about, and stills            | 5      |
-| Responsive at every width with no media queries                   | 4      |
-| Code quality: `grid.css` linked on both pages, clean and readable | 2      |
-| **Total**                                                         | **15** |
+| Homepage layout: featured film and film wall                      | 5      |
+| Film page layout: hero, quick facts, about, and stills            | 6      |
+| Responsive at every width with no media queries                   | 5      |
+| Code quality: `grid.css` linked on both pages, clean and readable | 3      |
+| **Total**                                                         | **19** |
 
 ## 📚 Resources
 
