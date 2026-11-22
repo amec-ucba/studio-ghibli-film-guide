@@ -14,7 +14,6 @@ Follow along with the companion video to complete the exercise.
   `index.html` and `spirited-away.html`.
 - [ ] All of your CSS is in `css/grid.css`. `css/base.css` is unchanged.
 - [ ] No media queries. Every layout adapts to the screen size with Grid alone.
-- [ ] The main headings on both pages scale smoothly with the width of the screen.
 - [ ] **Homepage:** the featured film's image, description, and credits sit side by side when there's room, and stack
   when there isn't.
 - [ ] **Homepage:** the film cards fill each row, and every card stays the same width, even on the last row.
@@ -59,8 +58,7 @@ no sudden jumps.
 |-------------------------------------------------------------------|--------|
 | Homepage layout: featured film and film wall                      | 4      |
 | Film page layout: hero, quick facts, about, and stills            | 5      |
-| Responsive at every width with no media queries                   | 3      |
-| Fluid headings                                                    | 1      |
+| Responsive at every width with no media queries                   | 4      |
 | Code quality: `grid.css` linked on both pages, clean and readable | 2      |
 | **Total**                                                         | **15** |
 
@@ -69,7 +67,6 @@ no sudden jumps.
 - [CSS grid layout (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
 - [`repeat()` (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/repeat)
 - [`minmax()` (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/minmax)
-- [`clamp()` (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp)
 - [A Complete Guide to CSS Grid (CSS-Tricks)](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ## 🆘 Getting Help
